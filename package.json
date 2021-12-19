@@ -6,13 +6,27 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@tailwindcss/forms": "^0.3.4",
+    "faker": "^5.5.3",
+    "firebase": "^9.6.0",
+    "moment": "^2.29.1",
+    "next": "^12.0.7",
+    "next-auth": "4.0.0-beta.7",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-countdown-circle-timer": "^2.5.4",
+    "react-dom": "^17.0.2",
+    "react-firebase-hooks": "^4.0.1",
+    "react-moment": "^1.1.1",
+    "react-scroll-into-view": "^1.10.1",
+    "recoil": "^0.5.2",
+    "tailwind-scrollbar-hide": "^1.1.6"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwind-scrollbar": "^1.3.1",
     "tailwindcss": "^2.2.4"
   }
 }

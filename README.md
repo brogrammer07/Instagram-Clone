@@ -1,29 +1,33 @@
-# Next.js + Tailwind CSS Example
+# Instagram Clone 
+This Repo Contains a functional Instagram Clone made using Nextjs and Reactjs
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Preview
+https://instagram-clone-07.netlify.app/
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+# TechStack
+1) Nextjs
+2) Reactjs
+3) Firebase
+4) Recoil
+5) Tailwind CSS
+6) NextAuth
 
-## Preview
+# Features
+1) Google Authentication using NextAuth
+2) Users can add Story which will be automatically removed after 24 hours
+3) Users can Post photos with caption
+4) Users can like and comment on any post
+5) Users can message other users of this app
+6) Messaging is fully secured with 1v1 privacy i.e other users can't see your messages
+7) Users can send pics too as a message
+8) Fully Responsive
+9) Log out feature
+10) Without logging in, you can see only see posts and stories
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+# Features to be added later in the future
+1) More Responsive with improved UI
+2) Dark Mode Option
+3) Users Profile page
+4) Follow/Unfollow feature
+5) Post videos on feed and stories
+6) Take picture using camera and post it on story or send it as a message
